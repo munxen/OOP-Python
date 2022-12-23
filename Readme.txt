@@ -1,0 +1,1 @@
+In this repository, I delve into OOP. I solve problems from different sources on the Internet, I take tasks from books.
