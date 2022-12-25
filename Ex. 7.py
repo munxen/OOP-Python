@@ -1,19 +1,19 @@
-#Написать программу, в которой есть главный класс Games со статическим полем Year, 
-# опишите конструктор присваивающий значение полю Year, также опишите метод getName, 
-# который возвращает имя игры. На основе главного класса путем наследования опишите 
-# четыре класса PCGames, PS4Games, XboxGames, MobileGames. Добавьте каждому классу 
-# дополнительные поля и переопределите у всех классов метод getName.
+#Write a program that has a main class Games with a static field Year, describe
+# the constructor assigning a value to the Year field, also describe the getName method, 
+# which returns the name of the game. Based on the main class by inheritance, describe 
+# four classes of PCGames, PS4Games, XboxGames, MobileGames. Add to each class 
+# additional fields and redefine the getName method for all classes.
 
 class Games:
 
-    """Статическое поле Year"""
+    """Static field Year"""
     year = 'default year'
 
-    """Конструктор присваивающий значение полю Year"""
+    """Constructor that assigns a value to the Year field"""
     def __init__(self,gy):
         self.year = gy
 
-    """Метод getName который возвращает имя игры"""
+    """The getName method that returns the name of the game"""
     def getName(self,name):
         print ("Game name is " + name)
         return name
